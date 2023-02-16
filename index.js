@@ -17,7 +17,7 @@ app.use(limiter);
 app.set('trust proxy', 1);
 
 // Routes
-app.use('/api', require('./routes'));
+app.use('/forecast', require('./routes'));
 
 app.use(cors());
 
